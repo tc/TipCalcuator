@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		652738191B87FDD60061ADB5 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652738181B87FDD60061ADB5 /* SettingsViewController.swift */; };
+		6527381B1B87FEEE0061ADB5 /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6527381A1B87FEEE0061ADB5 /* Setting.swift */; };
 		65B60E4E1B879D5A00D1B844 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B60E4D1B879D5A00D1B844 /* AppDelegate.swift */; };
 		65B60E501B879D5A00D1B844 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B60E4F1B879D5A00D1B844 /* ViewController.swift */; };
 		65B60E531B879D5A00D1B844 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65B60E511B879D5A00D1B844 /* Main.storyboard */; };
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		652738181B87FDD60061ADB5 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		6527381A1B87FEEE0061ADB5 /* Setting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
 		65B60E481B879D5A00D1B844 /* TipCalcuator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipCalcuator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65B60E4C1B879D5A00D1B844 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		65B60E4D1B879D5A00D1B844 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +83,8 @@
 			children = (
 				65B60E4D1B879D5A00D1B844 /* AppDelegate.swift */,
 				65B60E4F1B879D5A00D1B844 /* ViewController.swift */,
+				652738181B87FDD60061ADB5 /* SettingsViewController.swift */,
+				6527381A1B87FEEE0061ADB5 /* Setting.swift */,
 				65B60E511B879D5A00D1B844 /* Main.storyboard */,
 				65B60E541B879D5A00D1B844 /* Images.xcassets */,
 				65B60E561B879D5A00D1B844 /* LaunchScreen.xib */,
@@ -214,6 +220,8 @@
 			files = (
 				65B60E501B879D5A00D1B844 /* ViewController.swift in Sources */,
 				65B60E4E1B879D5A00D1B844 /* AppDelegate.swift in Sources */,
+				6527381B1B87FEEE0061ADB5 /* Setting.swift in Sources */,
+				652738191B87FDD60061ADB5 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +419,7 @@
 				65B60E691B879D5A00D1B844 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		65B60E6A1B879D5A00D1B844 /* Build configuration list for PBXNativeTarget "TipCalcuatorTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +428,7 @@
 				65B60E6C1B879D5A00D1B844 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
