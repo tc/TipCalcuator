@@ -14,4 +14,4 @@ Just the MVP: calculator and settings to save the default tip.
 
 # GIF walkthrough of all required and optional stories (using LiceCap)
 
-[Imgur](http://i.imgur.com/M4t0MrH.gifv)
+![Imgur](http://i.imgur.com/M4t0MrH.gif)
